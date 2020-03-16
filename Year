@@ -1,0 +1,15 @@
+public class Year {
+
+	public static void main(String[] args) {
+		java.util.Scanner in = new java.util.Scanner(System.in);
+		System.out.print("Number of days :");
+		int days=in.nextInt(); // Taking number of days
+		int year=days/365;  //dividing number of days to years
+		int week=(days%365)/7;  // dividing to weeks
+		int rem_days=((days%365)%7);  // calculating remaining days 
+		System.out.println("Number of Years:"+year+",Number of Weeks: "+week+" and Number of days :" +rem_days);
+		in.close();
+	}
+
+}
+
