@@ -1,0 +1,24 @@
+package Bootcamp_lms;
+
+public class Ascii {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		
+		//initialize variable
+		char ch;
+		
+		//loop creation
+		for(ch='a';ch<='z';ch++)
+		{
+			//typecasting char to integer
+			int c=(int)ch;
+			
+			//printing the elemnets
+			System.out.println(" "+ch+" is :"+c); 
+			
+			
+		}
+	}
+
+}
